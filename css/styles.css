@@ -25,15 +25,31 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: #000000;
 }
 
-.logo-first-letter-color {
+.logo-first-letters-color {
   color: var(--accent-color);
 }
 
-.logo-other-letters-color {
-  color: #000000;
+.modal-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+  /* color: #ffffff; */
 }
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+
 /* ======END COMPONENTS====== */
 
 /* ======START HEADER====== */
@@ -63,3 +79,17 @@ body {
   color: var(--accent-color);
 }
 /* ======END HEADER====== */
+
+/* ======START HERO====== */
+.hero-description {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* text-align: center; */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* color: #ffffff; */
+}
+
+/* ======END HERO====== */
