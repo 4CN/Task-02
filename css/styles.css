@@ -84,6 +84,14 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
 /* ======END COMPONENTS====== */
 
 /* ======START HEADER====== */
@@ -137,7 +145,8 @@ body {
   color: #212121;
 }
 
-.team-list-name-description {
+.team-list-name-description,
+.project-name-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -153,28 +162,24 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
-  
+  /* color: #ffffff; */
 }
 
-.address-list-mail {
-  font-style: normal;
+.address-list-map:hover,
+.address-list-map:focus {
+  color: var(--accent-color);
+}
+.address-list-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
+  /* color: rgba(255, 255, 255, 0.6); */
 }
 
-.address-list-tel {
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-text-decoration: none;
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
+.address-list-link:hover,
+.address-list-link:focus {
+  color: var(--accent-color);
 }
 /* ======END FOOTER====== */
